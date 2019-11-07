@@ -9,6 +9,9 @@ cache:
 
 addons:
   postgresql: "9.4"
+  apt:
+    packages:
+      - openjdk-8-jre-headless
 
 services:
   - mysql
