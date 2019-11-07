@@ -10,6 +10,9 @@ cache:
 addons:
   postgresql: "9.4"
 
+services:
+  - mysql
+
 php:
   - 7.0
   - 7.1
